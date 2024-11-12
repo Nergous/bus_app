@@ -1,0 +1,36 @@
+{
+  "name": "Расписание автобусов",
+  "expo": {
+    "name": "Расписание автобусов",
+    "displayName":"Расписание автобусов",
+    "slug": "BusAppReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nergous.BusAppReactNative"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nergous.BusAppReactNative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68288da5-48b1-431e-940a-857d62ba2609"
+      }
+    }
+  }
+}
